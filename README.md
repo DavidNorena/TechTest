@@ -7,10 +7,10 @@ Tecnologias /Frameworks Utilizadas:
 ** EntityFramework
 ** DependencyInjection
 ** WebApi
-** Intento de arquitectura limpia o clean arquitectura para poco acoplamiento entre los diferentes proyectos,
-y alta cohesion
+** Intento de arquitectura limpia o "clean architecture" para poco acoplamiento entre los diferentes proyectos,
+y alta cohesion.
 
-* ReacJs
+* ReactJs
 ** Redux - Redux-Observable - RxJs
 
 El proyecto se separo en backend y frontend.
