@@ -1,0 +1,222 @@
+{
+	"info": {
+		"_postman_id": "42f098b7-ccb9-4029-8f15-4a2209345ed7",
+		"name": "TechTest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CreatePreOrder",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{}"
+				},
+				"url": {
+					"raw": "http://localhost:53692/api/Orders/CreatePreOrder",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "53692",
+					"path": [
+						"api",
+						"Orders",
+						"CreatePreOrder"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateOrder",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"orderId\": 1,\n\t\"productId\": 1,\n\t\"quantity\": 3\n}"
+				},
+				"url": {
+					"raw": "http://localhost:50000/api/Orders/CreateOrder",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50000",
+					"path": [
+						"api",
+						"Orders",
+						"CreateOrder"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllOrders",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"orderId\": 1,\n\t\"productId\": 1,\n\t\"quantity\": 3\n}"
+				},
+				"url": {
+					"raw": "http://localhost:50000/api/Orders/CreateOrder",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "50000",
+					"path": [
+						"api",
+						"Orders",
+						"CreateOrder"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateCustomer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{}"
+				},
+				"url": {
+					"raw": "http://localhost:53692/api/Customers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "53692",
+					"path": [
+						"api",
+						"Customers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllProducts",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{}"
+				},
+				"url": {
+					"raw": "http://localhost:53692/api/Products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "53692",
+					"path": [
+						"api",
+						"Products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllInvoices",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{}"
+				},
+				"url": {
+					"raw": "http://localhost:53692/api/Products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "53692",
+					"path": [
+						"api",
+						"Products"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

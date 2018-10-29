@@ -18,6 +18,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechTest.Persistence", "Src\Infrastructure\Persistence\TechTest.Persistence.csproj", "{4C2BDAA0-6510-471E-9EFE-755A70FD29F3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{8F96B450-7CE6-41F4-B081-B02FC72FC75A}"
+	ProjectSection(SolutionItems) = preProject
+		Docs\TechTest.postman_collection.json = Docs\TechTest.postman_collection.json
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{1379DF74-BF0A-4339-8768-A82BDF9E7257}"
 EndProject
