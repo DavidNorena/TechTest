@@ -15,4 +15,7 @@ y alta cohesion.
 
 El proyecto se separo en backend y frontend.
 
-Para correr la aplicacion ejecute el backend des visual studio, desde una consola de comandos inicie el frontend siguiendo los datos en [este link](Src/Presentation/WebApp/README.md)
+* Para ejecutar la aplicacion inicie el backend desde visual studio, y desde una consola de comandos inicie el frontend siguiendo los datos en [este link](Src/Presentation/WebApp/README.md)
+
+
+* [Collecion de Postman para probar el backend](Docs/TechTest.postman_collection.json)
