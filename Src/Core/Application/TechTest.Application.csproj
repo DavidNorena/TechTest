@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Customers\**" />
+    <Compile Remove="Invoices\**" />
+    <EmbeddedResource Remove="Customers\**" />
+    <EmbeddedResource Remove="Invoices\**" />
+    <None Remove="Customers\**" />
+    <None Remove="Invoices\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="8.0.100" />
+    <PackageReference Include="MediatR" Version="5.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\Persistence\TechTest.Persistence.csproj" />
+    <ProjectReference Include="..\Domain\TechTest.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
